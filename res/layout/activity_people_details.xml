@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        layout="@layout/people_details_title" />
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#33B5E5"
+        android:gravity="center"
+        android:text="潘海南"
+        android:textColor="#fff"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/details_people_com_pos"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#33B5E5"
+        android:gravity="bottom|left"
+        android:lineSpacingExtra="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:id="@+id/details_people_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" >
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

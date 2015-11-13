@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tablerow_phone_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="手机"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/edit_people_phone1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="phone"
+            android:textSize="@dimen/textSize" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow_phone_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="手机"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/edit_people_phone2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="phone"
+            android:textSize="@dimen/textSize" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow_phone_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="手机"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/edit_people_phone3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="phone"
+            android:textSize="@dimen/textSize" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow_phone_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="手机"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/edit_people_phone4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="phone"
+            android:textSize="@dimen/textSize" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow_phone_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="手机"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/edit_people_phone5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="phone"
+            android:textSize="@dimen/textSize" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow_phone_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="手机"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/edit_people_phone6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="phone"
+            android:textSize="@dimen/textSize" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow_phone_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="手机"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/edit_people_phone7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="phone"
+            android:textSize="@dimen/textSize" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tablerow_phone_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="手机"
+            android:textSize="@dimen/textSize" />
+
+        <EditText
+            android:id="@+id/edit_people_phone8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:inputType="phone"
+            android:textSize="@dimen/textSize" />
+    </TableRow>
+
+</LinearLayout>

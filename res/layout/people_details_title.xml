@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#33B5E5"
+    android:layout_height="40dp"
+     >
+    <Button 
+        android:id="@+id/action_back_list"
+       android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        android:text="返回"
+        android:textColor="#fff"
+        />
+    <Button 
+        android:id="@+id/action_edit_people"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#fff"
+		android:text="编辑"
+        />
+
+</RelativeLayout>

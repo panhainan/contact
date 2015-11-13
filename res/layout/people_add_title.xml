@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#33B5E5"
+    android:layout_height="40dp"
+     >
+    <Button 
+        android:id="@+id/action_cancel_to_list"
+       android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:text="取消"
+        android:textColor="#fff"
+        />
+    <TextView 
+        android:id="@+id/title_name"
+       android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:text="添加联系人"
+        />
+    <Button 
+        android:id="@+id/action_save_people"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#fff"
+		android:text="确定"
+        />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">通讯录助手</string>
+    <string name="action_add_people">添加联系人</string>
+    <string name="title_activity_people">PeopleActivity</string>
+    <string name="title_activity_people_edit">PeopleEditActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
